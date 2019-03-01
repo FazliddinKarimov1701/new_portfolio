@@ -1,0 +1,27 @@
+.navbar-brand{
+	width: 50px;
+}
+#first{
+	background: url('../img/bg.jpeg');
+}
+.teleg{
+	font-size: 25px;
+}
+.face{
+	font-size: 25px;
+	color: blue;
+}
+.twit{
+	font-size: 25px;
+}
+.github{
+	font-size: 25px;
+	color: black;
+}
+.navbar{
+	position: sticky;
+	z-index: 99999;
+	top: 0;
+	left: 0;
+	right: 0;
+}

@@ -1,0 +1,122 @@
+header{
+	background: linear-gradient(270deg , #00000087 ,#00000087 ,#00000087 ,#00000087) , url('../img/bg.jpg');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	height: 650px;
+}
+#beginner{
+	padding-top: 100px;
+	color: #d2cccc;
+}
+#concluder > button{
+	margin-top: 250px;
+	width: 50px;
+	height: 50px;
+	font-size:40px;
+	line-height: 30px;
+	text-align: center;
+	transition: 1.5s;
+}
+#concluder > button:hover{
+	transition: 1.5s;
+	transform: rotate(720deg) scale(1.2);
+}
+.navbar-brand{
+	width: 50px;
+}
+.fixed-top{
+	z-index: 999;
+	box-shadow: 2px  0 0 2px grey;
+}
+.teleg{
+	font-size: 25px;
+}
+.face{
+	font-size: 25px;
+	color: blue;
+}
+.twit{
+	font-size: 25px;
+}
+.github{
+	font-size: 25px;
+	color: black;
+}
+.navbar{
+	position: sticky;
+	z-index: 99999;
+	top: 0;
+	left: 0;
+	right: 0;
+}
+#hidden{
+	transform: rotate(50deg)
+}
+#hidden button > i{
+	transform: rotate(-50deg)
+}
+#hidden > button {
+	right: 10px
+}
+#about .row > div > img{
+	width: 600px;
+}
+#second .row > div > img{
+	width: 500px;
+	height: 400px
+}
+#aboutpart{
+	border: 1px solid #80808077;
+	box-shadow: 0px 0px 3px 3px #80808075;
+	transition: 1.5s;
+}
+#aboutpart:hover{
+	box-shadow: none;/* 
+	transform: scale(1.01); */
+	transition: 2s;
+}
+.serviceslink{
+	transition: 1.5s;
+}
+.serviceslink:hover{
+	transform: scale(1.1);
+	transition: 1.5s;
+	box-shadow: 0 6px 6px 6px #80808052;
+}
+.imgservc, .imgserv {
+	width: auto !important;
+	height: auto !important;
+}
+@media screen and (max-width: 1200px){
+	.collapse > ul > li {
+		margin: 0 30px !important;
+	}
+	.serviceslink:hover{
+	transform: scale(1);
+	box-shadow: none;
+	}
+
+}
+#third .row > div{
+	transition: 1.2s;
+	background-color: white;
+}
+#third .row > div:hover{
+	transition: 1.2s;
+	box-shadow: 0 4px 4px 4px #80808075;
+	transform: scale(1.1);
+	z-index: 1;
+}
+.identy{
+	box-shadow: 7px 7px 7px 0 #80808075;
+	border-radius: 3px ;
+	background: linear-gradient( 200deg, blue , dodgerblue );
+}
+.form-group > input {
+	border: none;
+	outline: none !important;
+}
+.identy{
+	border-radius: 5px 50px 5px 50px;
+}
